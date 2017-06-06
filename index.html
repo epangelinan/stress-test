@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_test">
+        <div class="form-group">
+          <p>In the past month I have experienced:</p>
+          <input type="checkbox" name="warning-sign" value="sleepLoss">Loss of sleep<br>
+          <input type="checkbox" name="warning-sign" value="overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="warning-sign" value="frustrated">Feeling frustrated<br>
+          <input type="checkbox" name="warning-sign" value="difficultyRelaxing">Difficulty relaxing<br>
+          <input type="checkbox" name="warning-sign" value="worthless">Feeling worthless<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month I have had:</p>
+          <input type="checkbox" name="health-sx" value="bloodPressure">High blood pressure<br>
+          <input type="checkbox" name="health-sx" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="health-sx" value="headaches">Headaches<br>
+          <input type="checkbox" name="health-sx" value="chestPain">Chest pain<br>
+          <input type="checkbox" name="health-sx" value="colds">Frequent colds and infections<br>
+        </div>
+        <div class="form-group">
+          <p>When I feel stressed, I:</p>
+          <input type="checkbox" name="manage-stress" value="meditate">Meditate<br>
+          <input type="checkbox" name="manage-stress" value="manageTime">Manage my time<br>
+          <input type="checkbox" name="manage-stress" value="watchTV">Watch TV<br>
+          <input type="checkbox" name="manage-stress" value="exercise">Exercise<br>
+          <input type="checkbox" name="manage-stress" value="nap">Take a nap<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="resources-response">
+        <p><b>Your stress level seems to be a bit high.  Here are some <a href="http://www.onlyhealthy.com/35-awesome-stress-management-resources/">resources</a> that may be helpful in managing your stress.</b></p>
+      </span>
+      <br>
+      <span id="good-job-response">
+        <p><b>You have some stress, but you are managing it really well!  Great job.</b></p>
+      </span>
+      <span id="img"> <h1>HA HA HA</h1><img src="img/die.jpg" alt="you are going to die anyway!" /></span>
+    </div>
+  </body>
+</html>
